@@ -20,3 +20,24 @@
 .App-link {
   color: #61dafb;
 }
+
+/* calendar */
+.react-calendar__tile--active:enabled:hover, .react-calendar__tile--active:enabled:focus {
+  background: #ffffff;
+  outline: 2px solid #e10246;
+  font-weight: bold;
+  
+}
+
+.react-calendar__tile--active:enabled:hover, .react-calendar__tile--active:enabled:focus {
+  background: #ffffff;
+}
+.react-calendar__tile--active {
+   
+  color: black;
+}
+.react-calendar button {
+  margin: 0;
+  border: 1px solid #d0d4d9;
+  outline: none;
+}
