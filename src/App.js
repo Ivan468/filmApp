@@ -1,8 +1,9 @@
-import logo from '../src/images/TV.png';
+import TV from '../src/images/TV.png';
 import 'react-calendar/dist/Calendar.css';
 import './App.css';
 import React, { useState } from 'react';
 import Calendar from 'react-calendar';
+import AppSear from './component/searchfilter';
 
 
 function App() {
@@ -10,18 +11,21 @@ function App() {
     <div className="App">
       <header className="App-header">
       <h1> Super Film</h1>
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={TV} className="App-logo" alt="logo" />
         <p>
         Для получения списка сериалов, пожалуйста, выберите необходимый месяц и день.
         </p>
-        <div> {MyApp()}</div>
+        <div> {CalendarComponent()}</div>
       </header>
+      <div>
+        <AppSear/>
+      </div>
     </div>
   );
 }
 
- 
-function MyApp() {
+
+function CalendarComponent() {
   const [value, onChange] = useState(new Date());
  
   return (
@@ -29,7 +33,9 @@ function MyApp() {
       <Calendar
         onChange={onChange}
         value={value}
-      /> {console.log(value)}
+        calendarType ="Hebrew"
+        // formatLongDate = {(locale, date) => formatDate(date, 'dd MMM YYYY')}
+      /> {console.log(value.toLocaleDateString("en-US"))}
     </div>
   );
 }
