@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/filmApp/static/css/main.91f9a497.chunk.css",
-    "main.js": "/filmApp/static/js/main.021c488d.chunk.js",
-    "main.js.map": "/filmApp/static/js/main.021c488d.chunk.js.map",
+    "main.css": "/filmApp/static/css/main.011d36b7.chunk.css",
+    "main.js": "/filmApp/static/js/main.ccc3719f.chunk.js",
+    "main.js.map": "/filmApp/static/js/main.ccc3719f.chunk.js.map",
     "runtime-main.js": "/filmApp/static/js/runtime-main.1f42779e.js",
     "runtime-main.js.map": "/filmApp/static/js/runtime-main.1f42779e.js.map",
     "static/css/2.61d6986f.chunk.css": "/filmApp/static/css/2.61d6986f.chunk.css",
@@ -12,16 +12,19 @@
     "static/js/3.f7102ca1.chunk.js.map": "/filmApp/static/js/3.f7102ca1.chunk.js.map",
     "index.html": "/filmApp/index.html",
     "static/css/2.61d6986f.chunk.css.map": "/filmApp/static/css/2.61d6986f.chunk.css.map",
-    "static/css/main.91f9a497.chunk.css.map": "/filmApp/static/css/main.91f9a497.chunk.css.map",
+    "static/css/main.011d36b7.chunk.css.map": "/filmApp/static/css/main.011d36b7.chunk.css.map",
     "static/js/2.97a0a14d.chunk.js.LICENSE.txt": "/filmApp/static/js/2.97a0a14d.chunk.js.LICENSE.txt",
-    "static/media/Patryk-merous.982439d7.png": "/filmApp/static/media/Patryk-merous.982439d7.png",
-    "static/media/TV.e316e05f.png": "/filmApp/static/media/TV.e316e05f.png"
+    "static/media/Patryk-merous.05bf4f45.png": "/filmApp/static/media/Patryk-merous.05bf4f45.png",
+    "static/media/TV.e316e05f.png": "/filmApp/static/media/TV.e316e05f.png",
+    "static/media/Taken-poster-0.c7a52bf2.jpg": "/filmApp/static/media/Taken-poster-0.c7a52bf2.jpg",
+    "static/media/sladGore.4903ef14.jpg": "/filmApp/static/media/sladGore.4903ef14.jpg",
+    "static/media/теория.84a9e56a.jpg": "/filmApp/static/media/теория.84a9e56a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1f42779e.js",
     "static/css/2.61d6986f.chunk.css",
     "static/js/2.97a0a14d.chunk.js",
-    "static/css/main.91f9a497.chunk.css",
-    "static/js/main.021c488d.chunk.js"
+    "static/css/main.011d36b7.chunk.css",
+    "static/js/main.ccc3719f.chunk.js"
   ]
 }
