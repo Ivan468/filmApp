@@ -41,6 +41,6 @@
   border: 1px solid #d0d4d9;
   outline: none;
 }
-.calendar-block, .react-calendar {
+.calendar-wrapper, .react-calendar {
   margin: 0 auto;
 }

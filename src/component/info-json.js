@@ -1,17 +1,15 @@
-import  React, { Component } from "react";
-
 // import Epyphny from "./img/epypha.jpg";
 // import EpyphnyImg from "./img/EhN8T5hWoAYlzOx.jpg";
 // import belarus from "./img/belarus.jpg";
 // import navalny from "./img/F2Aws-10.jpg";
- import TV from "../images/TV.png";
+ import Sila from "../images/Patryk-merous.png";
 
 const Information = [
   {
-    firstName: "Барней",
-    lastName: TV,
+    firstName: "Патрік Мелроуз",
+    lastName: Sila,
     date: "11/1/2020",
-    gender: "male",
+    gender: "Сезон 3 Епізод 4",
   },
   {
     firstName: "Робін",

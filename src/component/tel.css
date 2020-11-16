@@ -1,34 +1,27 @@
-.tel_block {
+.film-block {
   color: #000;
   font-size: 16px;
   border-bottom: 1px solid black;
   padding: 5px 0px;
 }
-
-a[href^="tel:"] {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  color: black;
-  display: inline-block;
-  font-style: normal;
-  margin-top: 10px;
-  padding: 3px 5px;
-  text-decoration: none;
-  transition: 0.3s linear;
- 
-}
 .name_contact {
     font-weight: bold;
 }
 
-a[href^="tel:"]:hover {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    color: rgb(28, 185, 224);
-    display: inline-block;
-    font-style: normal;
-    margin-top: 10px;
-    padding: 3px 5px;
-    text-decoration: underline;
+.image-film {
+  width: 100%;
+  height: auto;
+}
 
+.image-block-film {
+
+  max-width: 210px;
+  max-height: 260px;
+}
+
+.epyzode {
+  padding: 5px;
+  background-color: #f5f5f5;
+  color:  #808080;
+  font-weight: 600;
 }
