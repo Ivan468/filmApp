@@ -45,10 +45,10 @@ class AppSear extends Component {
     const items = Information.filter((data) => {
       if (this.state.value == null) return data;
       else if (
-        data.firstName
+        data.film
           .toLowerCase()
           .includes(this.state.value.toLocaleDateString("en-US")) ||
-        data.lastName
+        data.img
           .toLowerCase()
           .includes(this.state.value.toLocaleDateString("en-US")) ||
         data.date
@@ -61,14 +61,15 @@ class AppSear extends Component {
       return (
         <div>
           <div className="film-block">
-            <p>{data.date}</p>
+            {/* <p>{data.date}</p> */}
             <div style={styleInfo}>
               <div className="image-block-film">
-                <img src={data.lastName} className="image-film" />
+                <img src={data.img} className="image-film" />
               </div>
               <div>
-                <h3 className="name_contact"> {data.firstName}</h3>
-                <p className="epyzode">{data.gender}</p>
+                <h4 className="name_film"> {data.film}</h4>
+                <p className="year-film">{data.year}</p>
+                <p className="epyzode">{data.epizode}</p>
               </div>
             </div>
           </div>
@@ -78,7 +79,7 @@ class AppSear extends Component {
 
     const { value } = this.state;
     // console.log("AppSear -> render -> value", value)
-    const options = {  year: 'numeric', month: 'long', day: 'numeric' };
+    const options = { year: "numeric", month: "long", day: "numeric" };
     return (
       <div>
         <Calendar
@@ -87,9 +88,8 @@ class AppSear extends Component {
           calendarType="Hebrew"
           /* {console.log(value.toLocaleDateString("en-US"))} */
         />
-        
-         <p>{this.state.value.toLocaleDateString(undefined, options)}</p> 
-         {/* Undefined - set region automation */}
+        <p>{this.state.value.toLocaleDateString(undefined, options)}</p>
+        {/* Undefined - set region automation  // viev DATE */}
         {items}
         {/* {console.log(this.state.value.toLocaleDateString("en-US"))} */}
       </div>

@@ -1,11 +1,14 @@
 .film-block {
   color: #000;
   font-size: 16px;
-  border-bottom: 1px solid black;
   padding: 5px 0px;
+  text-align: left;
 }
-.name_contact {
+.name_film {
     font-weight: bold;
+    
+    margin-top: 0;
+    margin-bottom: 2px;
 }
 
 .image-film {
@@ -14,9 +17,10 @@
 }
 
 .image-block-film {
-
-  max-width: 210px;
+  max-width: 104px;
   max-height: 260px;
+  padding: 4%;
+  padding-top: 0;
 }
 
 .epyzode {
@@ -24,4 +28,9 @@
   background-color: #f5f5f5;
   color:  #808080;
   font-weight: 600;
+}
+
+.year-film {
+  padding: 1px;
+  margin: 0px;
 }
