@@ -4,42 +4,42 @@ import  React, { Component } from "react";
 // import EpyphnyImg from "./img/EhN8T5hWoAYlzOx.jpg";
 // import belarus from "./img/belarus.jpg";
 // import navalny from "./img/F2Aws-10.jpg";
-// import china from "./img/q_0-Yddo.jpg";
+ import TV from "../images/TV.png";
 
 const Information = [
   {
     firstName: "Барней",
-    lastName: "Стинсовський",
-    phone: "+380956319521",
+    lastName: TV,
+    date: "11/1/2020",
     gender: "male",
   },
   {
     firstName: "Робін",
     lastName: "Щербатська",
-    phone: "+380931460123",
+    date: "+380931460123",
     gender: "female",
   },
   {
     firstName: "Анонімний",
     lastName: "Анонімус",
-    phone: "+380666666666",
+    date: "+380666666666",
   },
   {
     firstName: "Лілія",
     lastName: "Олдровна",
-    phone: "+380504691254",
+    date: "+380504691254",
     gender: "female",
   },
   {
     firstName: "Маршен",
     lastName: "Еріксонян",
-    phone: "+380739432123",
+    date: "+380739432123",
     gender: "male",
   },
   {
     firstName: "Теодор",
     lastName: "Мотсбес",
-    phone: "+380956319521",
+    date: "+380956319521",
     gender: "male",
   },
 ];
