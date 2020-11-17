@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/filmApp/static/css/main.011d36b7.chunk.css",
-    "main.js": "/filmApp/static/js/main.62863c59.chunk.js",
-    "main.js.map": "/filmApp/static/js/main.62863c59.chunk.js.map",
+    "main.css": "/filmApp/static/css/main.60606dd9.chunk.css",
+    "main.js": "/filmApp/static/js/main.34822745.chunk.js",
+    "main.js.map": "/filmApp/static/js/main.34822745.chunk.js.map",
     "runtime-main.js": "/filmApp/static/js/runtime-main.1f42779e.js",
     "runtime-main.js.map": "/filmApp/static/js/runtime-main.1f42779e.js.map",
     "static/css/2.61d6986f.chunk.css": "/filmApp/static/css/2.61d6986f.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.f7102ca1.chunk.js.map": "/filmApp/static/js/3.f7102ca1.chunk.js.map",
     "index.html": "/filmApp/index.html",
     "static/css/2.61d6986f.chunk.css.map": "/filmApp/static/css/2.61d6986f.chunk.css.map",
-    "static/css/main.011d36b7.chunk.css.map": "/filmApp/static/css/main.011d36b7.chunk.css.map",
+    "static/css/main.60606dd9.chunk.css.map": "/filmApp/static/css/main.60606dd9.chunk.css.map",
     "static/js/2.97a0a14d.chunk.js.LICENSE.txt": "/filmApp/static/js/2.97a0a14d.chunk.js.LICENSE.txt",
     "static/media/Patryk-merous.05bf4f45.png": "/filmApp/static/media/Patryk-merous.05bf4f45.png",
     "static/media/TV.e316e05f.png": "/filmApp/static/media/TV.e316e05f.png",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.1f42779e.js",
     "static/css/2.61d6986f.chunk.css",
     "static/js/2.97a0a14d.chunk.js",
-    "static/css/main.011d36b7.chunk.css",
-    "static/js/main.62863c59.chunk.js"
+    "static/css/main.60606dd9.chunk.css",
+    "static/js/main.34822745.chunk.js"
   ]
 }
