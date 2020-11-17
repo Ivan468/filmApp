@@ -17,7 +17,7 @@
 }
 
 .image-block-film {
-  max-width: 104px;
+  min-width: 104px;
   max-height: 260px;
   padding: 4%;
   padding-top: 0;
@@ -33,4 +33,5 @@
 .year-film {
   padding: 1px;
   margin: 0px;
+  font-size: 11px;
 }

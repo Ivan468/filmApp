@@ -5,7 +5,8 @@ import React, { Component } from "react";
 import Calendar from "react-calendar";
 // import AppSear from './component/searchfilter';
 import "../src/component/tel.css";
-import Information from "../src/component/info-json";
+import Information, { base } from "../src/component/info-json";
+
 
 function App() {
   return (
@@ -38,22 +39,20 @@ class AppSear extends Component {
 
   onChange = (value) => this.setState({ value });
   render() {
+
+    const imageClick = () => {
+      console.log(value);
+    } 
+
     const styleInfo = {
       paddingRight: "10px",
       display: "flex",
     };
-    const items = Information.filter((data) => {
+    const items = base.filter((data) => {
       if (this.state.value == null) return data;
       else if (
-        data.film
-          .toLowerCase()
-          .includes(this.state.value.toLocaleDateString("en-US")) ||
-        data.img
-          .toLowerCase()
-          .includes(this.state.value.toLocaleDateString("en-US")) ||
-        data.date
-          .toLowerCase()
-          .includes(this.state.value.toLocaleDateString("en-US"))
+        data.airstamp.includes(this.state.value.toISOString().slice(0, -14)) 
+        
       ) {
         return data;
       }
@@ -64,12 +63,13 @@ class AppSear extends Component {
             {/* <p>{data.date}</p> */}
             <div style={styleInfo}>
               <div className="image-block-film">
-                <img src={data.img} className="image-film" />
+                <img src={data.show.image.medium} className="image-film" onClick={() => imageClick()} />
               </div>
               <div>
-                <h4 className="name_film"> {data.film}</h4>
-                <p className="year-film">{data.year}</p>
-                <p className="epyzode">{data.epizode}</p>
+                <h4 className="name_film"> {data.show.name}</h4>
+                <p className="year-film"><b> Premiered: </b>{data.show.premiered} <br/> <b>language:</b> {data.show.language} </p>
+                <div className="year-film" dangerouslySetInnerHTML={{__html:data.show.summary}}/>
+                <p className="epyzode">{data.show.type}</p>
               </div>
             </div>
           </div>
@@ -86,11 +86,11 @@ class AppSear extends Component {
           onChange={this.onChange}
           value={value}
           calendarType="Hebrew"
-          /* {console.log(value.toLocaleDateString("en-US"))} */
+          
         />
         <p>{this.state.value.toLocaleDateString(undefined, options)}</p>
         {/* Undefined - set region automation  // viev DATE */}
-        {items}
+        {items} {console.log(value.toISOString().slice(0, -14))} 
         {/* {console.log(this.state.value.toLocaleDateString("en-US"))} */}
       </div>
     );
