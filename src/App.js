@@ -85,8 +85,6 @@ class AppSear extends Component {
         <Calendar
           onChange={this.onChange}
           value={value}
-          calendarType="Hebrew"
-          
         />
         <p>{this.state.value.toLocaleDateString(undefined, options)}</p>
         {/* Undefined - set region automation  // viev DATE */}
